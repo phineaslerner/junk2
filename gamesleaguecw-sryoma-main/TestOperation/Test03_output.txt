@@ -1,0 +1,110 @@
+
+#### Running Test03LeagueBasic...
+
+Created Player: Player[displayName=BigJW, email=wardlejj@wardle.com, joinDate=2025-03-24, deactivated=false]
+Created Player: Player[displayName=AKAnna, email=annakw@wardle.com, joinDate=2025-03-24, deactivated=false]
+
+Created League: DR League
+Created League: WM League
+
+Checking result of getLeagueStartDate / setLeagueStartDate
+PASS: gl.getLeagueStartDate(2) == -1
+Setting start date of league 2 to today: 20171
+PASS: gl.getLeagueStartDate(2) == 20171
+
+Setting end date of league 2 to one weeks time: 2025-03-31
+
+########## League Details for DR League ############
+
+League[name=DR League, status=PENDING, start=NA, closed_on=NA]
+
+Owners
+BigJW
+
+Players
+BigJW (active)
+
+
+Email Invitations
+<None>
+
+Player Invitations
+<None>
+
+
+################################################
+
+
+########## League Details for WM League ############
+
+League[name=WM League, status=IN_PROGRESS, start=2025-03-24, closed_on=NA]
+
+Owners
+AKAnna
+
+Players
+AKAnna (active)
+
+
+Email Invitations
+<None>
+
+Player Invitations
+<None>
+
+
+################################################
+
+Removing league: DR League
+Renaming League: WM League to RENAMED LEAGUE
+
+Created League with pending status: PENDING LEAGUE
+
+########## League Details for RENAMED LEAGUE ############
+
+League[name=RENAMED LEAGUE, status=IN_PROGRESS, start=2025-03-24, closed_on=NA]
+
+Owners
+AKAnna
+
+Players
+AKAnna (active)
+
+
+Email Invitations
+<None>
+
+Player Invitations
+<None>
+
+
+################################################
+
+
+########## League Details for PENDING LEAGUE ############
+
+League[name=PENDING LEAGUE, status=PENDING, start=NA, closed_on=NA]
+
+Owners
+AKAnna
+
+Players
+AKAnna (active)
+
+
+Email Invitations
+<None>
+
+Player Invitations
+<None>
+
+
+################################################
+
+
+AKAnna is Player (only includes in progress leagues):
+League RENAMED LEAGUE
+
+AKAnna is Owner (all leagues):
+League RENAMED LEAGUE
+League PENDING LEAGUE

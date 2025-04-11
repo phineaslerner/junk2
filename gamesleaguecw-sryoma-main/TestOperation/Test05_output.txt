@@ -1,0 +1,155 @@
+
+#### Running Test05LeagueInvitations...
+
+Created Player: Player[displayName=BigJW, email=wardlejj@wardle.com, joinDate=2025-03-24, deactivated=false]
+Created Player: Player[displayName=AKAnna, email=annakw@wardle.com, joinDate=2025-03-24, deactivated=false]
+
+Created League: DR League
+Invited Player: AKAnna to league: DR League
+Invited Non-player: p.lewis@nowhere.com to league: DR League
+
+########## League Details for DR League ############
+
+League[name=DR League, status=PENDING, start=NA, closed_on=NA]
+
+Owners
+BigJW
+
+Players
+BigJW (active)
+
+
+Email Invitations
+p.lewis@nowhere.com
+
+Player Invitations
+AKAnna2
+
+
+################################################
+
+Accepting invitations: 
+Created Player: Player[displayName=PWL, email=p.lewis@nowhere.com, joinDate=2025-03-24, deactivated=false]
+Accepts invite: PWL
+Accepts invite: AKAnna
+Switch to inactive: PWL
+
+########## League Details for DR League ############
+
+League[name=DR League, status=PENDING, start=NA, closed_on=NA]
+
+Owners
+BigJW
+
+Players
+BigJW (active)
+PWL (inactive)
+AKAnna (active)
+
+
+Email Invitations
+<None>
+
+Player Invitations
+<None>
+
+
+################################################
+
+Add owner: AKAnna
+Removed owner: BigJW
+Switch to active: PWL
+
+########## League Details for DR League ############
+
+League[name=DR League, status=PENDING, start=NA, closed_on=NA]
+
+Owners
+AKAnna
+
+Players
+BigJW (active)
+PWL (active)
+AKAnna (active)
+
+
+Email Invitations
+<None>
+
+Player Invitations
+<None>
+
+
+################################################
+
+Cloning DR League to Cloned league
+
+########## League Details for DR League ############
+
+League[name=DR League, status=PENDING, start=NA, closed_on=NA]
+
+Owners
+AKAnna
+
+Players
+BigJW (active)
+PWL (active)
+AKAnna (active)
+
+
+Email Invitations
+<None>
+
+Player Invitations
+<None>
+
+
+################################################
+
+
+########## League Details for Cloned league ############
+
+League[name=Cloned league, status=PENDING, start=NA, closed_on=NA]
+
+Owners
+AKAnna
+
+Players
+AKAnna (active)
+
+
+Email Invitations
+<None>
+
+Player Invitations
+BigJW1
+PWL3
+
+
+################################################
+
+Removing Cloned league
+Resetting DR League
+
+########## League Details for DR League ############
+
+League[name=DR League, status=PENDING, start=NA, closed_on=NA]
+
+Owners
+AKAnna
+
+Players
+BigJW (active)
+PWL (active)
+AKAnna (active)
+
+
+Email Invitations
+<None>
+
+Player Invitations
+<None>
+
+
+################################################
+

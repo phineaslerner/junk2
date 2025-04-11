@@ -1,0 +1,17 @@
+
+#### Running Test01PlayerBasic...
+
+Created Player: Player[displayName=BigJW, email=wardlejj@wardle.com, joinDate=2025-03-24, deactivated=false]
+Created Player: Player[displayName=AKAnna, email=annakw@wardle.com, joinDate=2025-03-24, deactivated=false]
+
+Players now stored in GamesLeague backend:
+Player[displayName=BigJW, email=wardlejj@wardle.com, joinDate=2025-03-24, deactivated=false]
+Player[displayName=AKAnna, email=annakw@wardle.com, joinDate=2025-03-24, deactivated=false]
+
+Deactivating player: BigJW
+Player info before deactivation:
+Player[displayName=BigJW, email=wardlejj@wardle.com, joinDate=2025-03-24, deactivated=false]
+Player info after deactivation:
+Player[displayName=anonymousplayer1, email=, joinDate=NA, deactivated=true]
+Player with displayName anonymousplayer1 is deactivated
+Player with displayName AKAnna is active

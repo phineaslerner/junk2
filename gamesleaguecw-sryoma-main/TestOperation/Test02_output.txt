@@ -1,0 +1,13 @@
+
+#### Running Test02PlayerExceptions...
+
+EXCEPTION TEST 0: Try to find non-existant 
+PASS 0: Caught IDInvalidException: Player ID not found
+EXCEPTION TEST 1: Try to create player with empty email
+PASS 1: Caught InvalidEmailException: Email invalid
+EXCEPTION TEST 2: Try to create player with email without @
+PASS 2: Caught InvalidEmailException: Email invalid
+EXCEPTION TEST 3: Try to create player with null displayName
+PASS 3: Caught InvalidNameException: Display name invalid
+EXCEPTION TEST 4: Try to create player with existing email
+PASS 4: Caught IllegalEmailException: Email already exists

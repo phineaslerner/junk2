@@ -1,0 +1,20 @@
+
+#### Running Test04LeagueExceptions...
+
+EXCEPTION TEST 0: Try to find non-existent league 
+PASS 0: Caught IDInvalidException: League ID not found
+EXCEPTION TEST 1: Try to find status of non-existent league 
+PASS 1: Caught IDInvalidException: League ID not found
+EXCEPTION TEST 2: Try to create league with non-existing owner
+PASS 2: Caught IDInvalidException: Player ID not found
+Created Player with id: 1
+Created Player with id: 2
+Created League with id: 1
+EXCEPTION TEST 3: Try to create league with empty name
+PASS 3: Caught InvalidNameException: Name invalid
+EXCEPTION TEST 3b: Try to create league with too long name
+PASS 3b: Caught InvalidNameException: Name invalid
+EXCEPTION TEST 4: Try to create leagues with duplicate names
+PASS 4: Caught IllegalNameException: League name already exists
+EXCEPTION TEST 5: Try to check removeLeague worked
+PASS 5: was able to reuse name of deleted league without exception...
